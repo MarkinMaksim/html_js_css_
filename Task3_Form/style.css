@@ -1,0 +1,41 @@
+.back{
+    width: 40%;
+    height: auto;
+    padding: 10% 20%;
+    background: cadetblue;
+}
+.table{
+    border: 1px solid black;
+}
+.table div{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blue;
+}
+.table p{
+    display: inline;
+}
+.mail{
+    padding-right: 20%;
+}
+.login{
+    padding-right: 19%;
+}
+.password{
+    padding-right: 17%;
+}
+.male{
+    padding-right: 20%;
+}
+.name{
+    padding-right: 6%;
+}
+.date{
+    padding-right: 6%;
+}
+.city{
+    padding-right: 1.5%;
+}
