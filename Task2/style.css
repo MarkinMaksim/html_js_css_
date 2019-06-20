@@ -1,5 +1,5 @@
 body{
-    background-image: url(Bakcground.jpg) ;
+    background-image: url(img/Bakcground.jpg) ;
     background-size: 100%;
 }
 .back{
@@ -7,7 +7,6 @@ body{
     height: 250px;
     padding: 10% 20%;
 }
-.left-col,
 .right-col
 {
     width: 25%;
