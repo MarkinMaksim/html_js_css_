@@ -7,13 +7,16 @@
 </head>
 <body>
     <div class="back">
-        <div>Регистрация</div>
+        <p>Регистрация</p>
         <form>
         <div class="table">
             <div><p class="mail">Email: </p><input type="email"></div>
             <div><p class="login">Логин: </p><input type="text" size="20"></div>
             <div><p class="password">Пороль: </p><input type="password" size="20"></div>
-            <div><p class="male">Пол: </p><input type="radio" name="wm" value="women">Женщина <input type="radio" name="wm" value="men">Мужчина</div>
+            <div><p class="male">Пол: </p>
+                <p><input type="radio" name="wm" value="women">Женщина</p>
+                <p><input type="radio" name="wm" value="men">Мужчина</p>
+            </div>
             <div><p class="name">Настоящее имя: </p><input type="text" size="20"></div>
             <div><p class="date">Дата рождения: </p>
                 <select name="Year">
@@ -22,7 +25,7 @@
                     <option value="1998">1998</option>
                     <option value="1997">1998</option>
                 </select>
-                -
+                <p>-</p>
                 <select name="Month">
                     <option value="Январь">Январь</option>
                     <option value="Февраль">Февраль</option>
@@ -37,7 +40,7 @@
                     <option value="Ноябрь">Ноябрь</option>
                     <option value="Декабрь">Декабрь</option>
                 </select>
-                -
+                <p>-</p>
                 <select name="Day">
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -80,6 +83,7 @@
                     <option value="Москва">Москва</option>
                 </select>
             </div>
+            <button class="button">Submit</button>
         </div>
     </div>
     </form>
